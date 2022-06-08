@@ -1,6 +1,8 @@
 # HLx_Examples
 Open Source HLx Examples
 
+## NOTE: This repository is meant to be used only with the Vivado HLS versions. A newer version of the repository will soon be released that can be used with the latest version of Vitis HLS. 
+
 ## Acceleration 
 - **memcached** - HLS implementation of Memcached pipeline.
   This HLS example gives the pipelined memcached implementation. The main pipeline stages of memcached include request parser, hash table, value store and response formatter. Both HLS and RTL testbenches are provided to allow users to simulate the design in HLS or modelsim.
